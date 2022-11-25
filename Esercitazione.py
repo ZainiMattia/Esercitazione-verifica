@@ -28,3 +28,10 @@ else:
         print(x)
 
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
+
+automobili= ["Abarth", "Ferrari", "Lamborghini", "Maserati", "FIAT"]
+Moto= ["Honda", "Suzuki", "BMW", "Duke"]
+aM= automobili + Moto
+aM.sort ()
+print(aM)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
