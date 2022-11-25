@@ -35,3 +35,15 @@ aM= automobili + Moto
 aM.sort ()
 print(aM)
 print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
+
+import random
+lista= []
+for i in range (0,50):
+    lista.append (random.randint (0,10000000000))
+listadispari=[]
+for x in lista:
+    if x%2==1:
+        listadispari.append(x)
+lista=listadispari
+print(lista)
+print("°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸")
