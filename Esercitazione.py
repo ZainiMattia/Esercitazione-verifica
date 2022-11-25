@@ -52,7 +52,7 @@ import random
 lista= []
 Valori_Stampati= 0
 for i in range(50):
-    lista.append(random(1,100))
+    lista.append (random.randint(1,100))
 for x in lista:
     if x>50 or x<10:
         print(x)
